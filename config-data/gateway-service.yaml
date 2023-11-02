@@ -34,7 +34,7 @@ spring:
           uri: lb://cuotas-service
           predicates:
             - Path=/arancel/**
-        - id: pet-service
-          uri: lb://pet-service
+        - id: gestorAcademico-service
+          uri: lb:/gestorAcademico-service
           predicates:
-            - Path=/pet/**
+            - Path=/gestorAcademico/**
