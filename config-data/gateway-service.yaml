@@ -36,6 +36,6 @@ spring:
             - Path=/arancel/**
             - Path=/cuotas/**
         - id: gestorAcademico-service
-          uri: lb:/gestorAcademico-service
+          uri: lb://gestorAcademico-service
           predicates:
             - Path=/gestorAcademico/**
