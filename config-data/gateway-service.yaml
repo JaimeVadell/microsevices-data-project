@@ -37,4 +37,4 @@ spring:
         - id: gestorAcademico-service
           uri: lb://gestorAcademico-service
           predicates:
-            - Path=/gestorAcademico/**
+            - Path=/actualizar-precios/**, /pruebas/**, /resumen-estudiante/**
